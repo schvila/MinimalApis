@@ -77,7 +77,7 @@ app.MapPost("books",
             var path = linker.GetPathByName("GetBook", new { isbn = book.Isbn })!;
             var locationUri = linker.GetUriByName(context, "GetBook", new { isbn = book.Isbn })!;
             return Results.Created(locationUri, book);
-            //return Results.CreatedAtRoute("GetBook", new { isbn = book.Isbn }, book);
+            // "asi best" return Results.CreatedAtRoute("GetBook", new { isbn = book.Isbn }, book);
             //return Results.Created($"/books/{book.Isbn}", book);
         })
     .WithName("CreateBook")

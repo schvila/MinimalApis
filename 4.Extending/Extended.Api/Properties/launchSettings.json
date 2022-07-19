@@ -1,6 +1,6 @@
 ﻿{
   "profiles": {
-    "Library.Api": {
+    "Extended.Api": {
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": false,
