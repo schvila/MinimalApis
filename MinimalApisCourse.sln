@@ -26,7 +26,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Minimal.Api", "2.GettingSta
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library.Api", "3.LetsBuild\Library.Api\Library.Api.csproj", "{6D3EAC78-BC57-485C-892F-A976BAA38700}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library.Api", "4.Extending\Library.Api\Library.Api.csproj", "{DC0D0C72-751C-4C03-9FA3-7815A3BAE393}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Extended.Api", "4.Extending\Extended.Api\Extended.Api.csproj", "{DC0D0C72-751C-4C03-9FA3-7815A3BAE393}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library.Api", "5.Structuring\Library.Api\Library.Api.csproj", "{0EA2AF77-13BC-426A-B8B2-75B875502C53}"
 EndProject

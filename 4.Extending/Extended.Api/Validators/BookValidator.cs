@@ -1,7 +1,7 @@
-﻿using FluentValidation;
-using Library.Api.Models;
+﻿using Extended.Api.Models;
+using FluentValidation;
 
-namespace Library.Api.Validators;
+namespace Extended.Api.Validators;
 
 public class BookValidator : AbstractValidator<Book>
 {

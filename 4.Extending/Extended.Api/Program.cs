@@ -1,10 +1,10 @@
 using FluentValidation;
 using FluentValidation.Results;
-using Library.Api;
-using Library.Api.Auth;
-using Library.Api.Data;
-using Library.Api.Models;
-using Library.Api.Services;
+using Extended.Api;
+using Extended.Api.Auth;
+using Extended.Api.Data;
+using Extended.Api.Models;
+using Extended.Api.Services;
 using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 
@@ -13,7 +13,7 @@ var builder = WebApplication.CreateBuilder(new WebApplicationOptions
     Args = args,
     // WebRootPath = "./wwwroot",
     // EnvironmentName = Environment.GetEnvironmentVariable("env"),
-    // ApplicationName = "Library.Api"
+    // ApplicationName = "Extended.Api"
 });
 
 builder.Services.AddCors(options =>

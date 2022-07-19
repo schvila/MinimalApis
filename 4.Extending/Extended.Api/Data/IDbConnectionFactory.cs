@@ -1,6 +1,6 @@
 ﻿using System.Data;
 
-namespace Library.Api.Data;
+namespace Extended.Api.Data;
 
 public interface IDbConnectionFactory
 {

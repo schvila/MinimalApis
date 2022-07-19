@@ -1,6 +1,6 @@
 ﻿using Dapper;
 
-namespace Library.Api.Data;
+namespace Extended.Api.Data;
 
 public class DatabaseInitializer
 {

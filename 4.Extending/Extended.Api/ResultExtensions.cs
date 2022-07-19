@@ -1,7 +1,7 @@
 ﻿using System.Net.Mime;
 using System.Text;
 
-namespace Library.Api;
+namespace Extended.Api;
 
 public static class ResultExtensions
 {

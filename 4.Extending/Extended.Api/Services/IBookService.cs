@@ -1,6 +1,6 @@
-﻿using Library.Api.Models;
+﻿using Extended.Api.Models;
 
-namespace Library.Api.Services;
+namespace Extended.Api.Services;
 
 public interface IBookService
 {

@@ -1,4 +1,4 @@
-﻿namespace Library.Api.Auth;
+﻿namespace Extended.Api.Auth;
 
 public class ApiKeySchemeConstants
 {

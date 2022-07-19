@@ -1,7 +1,7 @@
 ﻿using System.Data;
 using Microsoft.Data.Sqlite;
 
-namespace Library.Api.Data;
+namespace Extended.Api.Data;
 
 public class SqliteConnectionFactory : IDbConnectionFactory
 {

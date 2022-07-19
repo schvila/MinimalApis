@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Authentication;
 using Microsoft.Extensions.Options;
 using Microsoft.Net.Http.Headers;
 
-namespace Library.Api.Auth;
+namespace Extended.Api.Auth;
 
 public class ApiKeyAuthHandler : AuthenticationHandler<ApiKeyAuthSchemeOptions>
 {

@@ -1,8 +1,8 @@
 ﻿using Dapper;
-using Library.Api.Data;
-using Library.Api.Models;
+using Extended.Api.Data;
+using Extended.Api.Models;
 
-namespace Library.Api.Services;
+namespace Extended.Api.Services;
 
 public class BookService : IBookService
 {
